@@ -1,0 +1,38 @@
+body{
+    overflow-y: scroll;
+}
+.projects{
+    height: max-content;
+    width: 100%;
+}
+.flex-center>h2{
+    margin: 10px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+.card{
+    width: 30%;
+    background-color: #444;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+.card>h3{
+    padding: 10px;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+.card>p, .card>a{
+    margin: 20px;
+    font-size: 1.2rem;
+}
+.card>a{
+    border: 2px solid gold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: block;
+}
+.cards-container{
+    flex-wrap: wrap;
+}

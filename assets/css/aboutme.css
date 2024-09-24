@@ -1,0 +1,41 @@
+.personal-details{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.details-table{
+    flex-basis: 45%;
+}
+.details-table>h3, .career-objective>h3, .slc>h3, .plus2>h3, .bachelors>h3, .skills-container>h3, .training>h3, .connect-title>h3, .connect-title>h3{
+    margin: 10px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+.language-proficiency>h3{
+    margin-top: 10px;
+}
+#personal-details{
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: var(--light-gray);
+    text-align: center;
+}
+#personal-details>label{
+    margin-bottom: 20px;
+}
+.education{
+    align-items: flex-start;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.career-objective{
+    flex-basis: 45%;
+}
+.career-objective>p, .slc>table, .plus2>table, .bachelors>table, .language-proficiency>table{
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding: 10px;
+}
+.education{
+    width: 100%;
+}

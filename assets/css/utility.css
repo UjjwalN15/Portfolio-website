@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+}
+:root{
+    --background-color: black;
+    --text-color : #FFFF00;
+}
+body{
+    overflow: hidden;
+}
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+    font-weight: 900;
+    font-style: normal;
+    color: var(--text-color);
+}
+h2{
+    font-size: 2rem;
+    color: var(--text-color);
+}
+h3{
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+h2 h3{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    font-size: 1.25rem;
+    color: var(--text-color);
+}
+li{
+    list-style: none;
+}
+.flex{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+tr{
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+    font-size: 1.25rem;
+}
+tr>th, tr>td{
+    align-items: center;
+    justify-content: flex-start;
+}

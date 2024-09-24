@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/animation.css">
+    <link rel="stylesheet" href="/assets/css/utility.css">
+    <link rel="stylesheet" href="/assets/css/aboutme.css">
+    <link rel="stylesheet" href="/assets/css/skills.css">
+    <link rel="stylesheet" href="/assets/css/projects.css">
+    <link rel="stylesheet" href="/assets/css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <section class="slide-up">
+        <div class="container flex-center">
+            <img src="/assets/images/my-photo.png" alt="Ujjwal Neupane">
+            <h1>Hi, I'm Ujjwal Neupane</h1>
+            <h2>A Passionate Django Backend developer</h2>
+            <h3>CONTACT ME</h3>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <header>
+                <nav class="navbar flex">
+                    <h3><a href="index.html">Ujjwal Neupane</a></h3>
+                    <ul class="flex">
+                        <li><a href="aboutme.html">About me</a></li>
+                        <li><a href="skills.html">My Skills</a></li>
+                        <li><a href="/projects.html">My Projects</a></li>
+                        <li><a href="/contact.html">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <div class="contactme flex-center">
+                    <h2>Contact Me</h2>
+                    <form action="/contact" method="POST">
+                        <div class="name">
+                            <label for="name">Your Name: </label>
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="email">
+                            <label for="email">Email: </label>
+                            <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="message">
+                            <label for="message">Your Message: </label>
+                            <textarea name="message" placeholder="Your Message" id="message" required></textarea>
+                        </div>
+                        <div class="submit flex-center">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                    <div class="contact-me flex">
+                        <div class="connect-title">
+                            <h3>Connect with me</h3>
+                        </div>
+                        <div class="icons flex">
+                            <a href="https://www.facebook.com/profile.php?id=100091491353441" target="_blank"
+                                rel="noopener"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                            <a href="https://www.instagram.com/the_ujjwaln/" target="_blank"
+                                rel="noopener"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                            <a href="https://www.youtube.com/@ujjwalneupane8658" target="_blank"
+                                rel="noopener"><i class="fa-brands fa-youtube"></i>YouTube</a>
+                            <a href="https://github.com/UjjwalN15" target="_blank"
+                                rel="noopener"><i class="fa-brands fa-github"></i>Github</a>
+                            <a href="https://www.linkedin.com/in/ujjwal-neupane-84a853234/" target="_blank"
+                                rel="noopener"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                        </div>
+                    </div>
+                    <div class="contact-me flex">
+                        <div class="connect-title">
+                            <h3>Contact me</h3>
+                        </div>
+                        <div class="contact_me flex">
+                            <a href="https://wa.me/9779808986000" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> +977 9808986000</a>
+                            <a href="mailto:ujjwalneupane01@gmail.com"><i class="fa-solid fa-envelope"></i> ujjwalneupane01@gmail.com</a>
+                            <a href="tel:+9779768431599"><i class="fa-solid fa-phone"></i> +977 9768431599</a>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <script src="/main.js"></script>
+</body>
+
+</html>
