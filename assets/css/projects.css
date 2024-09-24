@@ -5,7 +5,7 @@ body{
     height: max-content;
     width: 100%;
 }
-.flex-center>h2{
+.title>h2{
     margin: 10px;
     margin-top: 30px;
     text-decoration: underline;

@@ -25,7 +25,7 @@
 window.onload = function () {
   setTimeout(function () {
     document.querySelector('.slide-up').classList.add('hide');
-  }, 7000);
+  }, 6000);
 };
 
 const texts = [
