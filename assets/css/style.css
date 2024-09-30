@@ -44,9 +44,17 @@ main>.container>img{
 .home-text>p{
     padding-top: 50px;
 }
-
 .typing-container>p{
     font-size: 2.5rem;
     font-weight: 900;
     margin-top: 50px;
+    animation: cursor 0.5s ease infinite;
+}
+@keyframes cursor{
+    0%{
+        border-right:5px solid gold;
+    }
+    100%{
+        border-right: transparent;
+    }
 }
